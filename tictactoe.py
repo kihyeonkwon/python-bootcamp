@@ -10,7 +10,7 @@ def selectHorse():
     global horse2
     b = 0
     while b < 1:
-        a = input("Player 1, select O or X")
+        a = input("Player 1, select O or X").upper()
         if a == 'O':
             horse1 = 'O'
             horse2 = 'X'

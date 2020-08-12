@@ -377,7 +377,7 @@ while reset == 0:
                     print("21이다!!!!")
                     time.sleep(2)
 
-                while dealer_hand.value < 17:
+                while dealer_hand.value < 17 and dealer_hand.value < player_hand.value:
                     print("딜러가 히트한다!")
                     time.sleep(2)
                     hit(deck, dealer_hand)
@@ -433,6 +433,7 @@ while reset == 0:
             time.sleep(1)
             print(f"나는 이제 섬노예다.")
             time.sleep(2)
+            print("\n ○|￣|_ \n")
             print(f"{sexslave}년간 뙤약볕에서 녹초가 되도록 나는 소금만 말렸다.")
 
             time.sleep(2)
